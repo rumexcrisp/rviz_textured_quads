@@ -86,7 +86,7 @@ namespace rviz
                                                  "Align the image quad to the xy plane of this tf frame",
                                                  this, 0, true);
 
-        meters_per_pixel_property_ = new FloatProperty("Meters per pixel", 0.002,
+        meters_per_pixel_property_ = new FloatProperty("Meters per pixel", 0.001,
                                                        "Rviz meters per image pixel.", this);
     }
 
